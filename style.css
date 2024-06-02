@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(https://cdn.akamai.steamstatic.com/steam/apps/1966720/capsule_616x353.jpg?t=1700231592);
+    background-size: cover;
+    background-position: center;
+}
+header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+
+}
+
+.logo-img{
+    height: 100%;
+    margin-left: 15px;
+}
+nav{
+    height: 100%;
+    margin-right: 15px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+nav li{
+    margin: 0 15px;
+}
+
+nav a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: 700;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    color: white;
+}
+.banner h1{
+    font-size: 48px;
+}
+.banner p{
+    font-size: 28px;
+    text-align: center;
+    margin: 20px 0;
+}
+.banner button{
+    font-size: 28px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: rgb(146, 218, 40);
+    font-weight: 700;
+}
+
+
+.wrapper{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+}
+.wrapper .description{
+    text-align: center;
+    width: 50%;
+    margin: 50px 0;
+}
+.description h1{
+    font-size: 72px;
+}
+.description p{
+    font-size: 28px;
+}
+.wrapper .items{
+    width: 75%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+
+}
+.wrapper .item{
+    aspect-ratio: 16/9;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.wrapper .item:hover img{
+    transform: scale(1.25);
+    transition: 1s;
+}
+.item img{
+    width: 100%;
+    height: 100%;
+}
+.item p{
+    position: absolute;
+    font-size: 25px;
+    color: aqua;
+    text-shadow: 0 0 10px black;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 15vh;
+    color: azure;
+    font-size: 1.5rem;
+    margin-top: 50px;
+    background-color: black;
+}
+.footer div{
+    width: 6rem;
+    display: flex;
+    justify-content: space-between;
+}
+.footer a{
+    color: white;
+}
