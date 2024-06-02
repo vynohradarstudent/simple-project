@@ -1,0 +1,29 @@
+* {
+    background-color: lightgray;
+
+}
+
+.header {
+    display: flex;
+justify-content: center;
+
+}
+
+.img {
+    display: flex;
+    float: left;
+    margin: 20px;
+}
+
+.text {
+    font-size: 20px;
+
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background-color: lightgray;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
