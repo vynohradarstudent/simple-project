@@ -8,9 +8,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: gray;
     background: url(https://cdn.akamai.steamstatic.com/steam/apps/1966720/capsule_616x353.jpg?t=1700231592);
     background-size: cover;
     background-position: center;
+}
+
+.wrapper{
+    background-color: gray;
+
 }
 header{
     width: 100%;
