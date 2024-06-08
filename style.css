@@ -2,8 +2,13 @@
     margin: 0;
     padding: 0;
 }
-.main{
+
+body{
     width: 100vw;
+    overflow-x: hidden;
+}
+.main{
+    width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -16,7 +21,6 @@
 
 .wrapper{
     background-color: gray;
-
 }
 header{
     width: 100%;
@@ -24,7 +28,6 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 15px 0;
-
 }
 
 .logo-img{
@@ -129,20 +132,19 @@ nav a{
 .footer{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     width: 100vw;
     height: 15vh;
     color: azure;
     font-size: 1.5rem;
-    margin-top: 50px;
     background-color: black;
 }
 .footer div{
-    width: 6rem;
     display: flex;
     justify-content: space-between;
 }
+
 .footer a{
     color: white;
 }
