@@ -27,3 +27,8 @@ body {
     width:500px;
     height:2000px;
 }
+.header {
+    display: flex;
+    justify-content: center;
+
+}

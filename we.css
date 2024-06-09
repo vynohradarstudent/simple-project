@@ -19,3 +19,6 @@ body {
 .person h2 {
     margin-top: 0;
 }
+.header {
+    display: flex;
+    justify-content: center;
