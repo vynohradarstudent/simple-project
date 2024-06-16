@@ -3,6 +3,10 @@ body {
 
 }
 
+.header h1 {
+    display: flex;
+    justify-content: center;
+}
 
 .container {
     max-width: 800px;
@@ -10,4 +14,25 @@ body {
     background-color: lightgray;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 15vh;
+    color: azure;
+    font-size: 1.5rem;
+    margin-top: 50px;
+    background-color: black;
+}
+.footer div{
+    width: 6rem;
+    display: flex;
+    justify-content: space-between;
+}
+.footer a{
+    color: white;
 }
